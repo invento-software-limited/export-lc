@@ -1,0 +1,48 @@
+{
+ "cards": [
+  {
+   "card": "Total LC Exposure"
+  },
+  {
+   "card": "Active LCs"
+  },
+  {
+   "card": "Partially Utilized LCs"
+  },
+  {
+   "card": "Fully Utilized LCs"
+  },
+  {
+   "card": "Expired LCs"
+  },
+  {
+   "card": "Closed LCs"
+  }
+ ],
+ "charts": [
+  {
+   "chart": "Export LC Status Distribution",
+   "width": "Half"
+  },
+  {
+   "chart": "Bank Risk Concentration",
+   "width": "Half"
+  },
+  {
+   "chart": "Export LC Chart",
+   "width": "Full"
+  }
+ ],
+ "creation": "2026-06-22 17:02:16.472853",
+ "dashboard_name": "Export LC Dashboard",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 1,
+ "is_standard": 1,
+ "modified": "2026-07-15 17:08:53.914046",
+ "modified_by": "Administrator",
+ "module": "Export LC",
+ "name": "Export LC Dashboard",
+ "owner": "Administrator"
+}
