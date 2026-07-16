@@ -1,0 +1,29 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2026-06-18 14:57:43.020833",
+  "name": "Export LC Manager",
+  "role_profile": "Export LC Manager",
+  "roles": [
+   {
+    "role": "Export LC Manager"
+   },
+   {
+    "role": "Export LC User"
+   },
+   {
+    "role": "Sales Manager"
+   },
+   {
+    "role": "Accounts Manager"
+   },
+   {
+    "role": "Stock Manager"
+   },
+   {
+    "role": "Desk User"
+   }
+  ]
+ }
+]
