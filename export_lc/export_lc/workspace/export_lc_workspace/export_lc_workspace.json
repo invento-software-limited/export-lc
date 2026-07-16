@@ -1,0 +1,205 @@
+{
+ "app": "export_lc",
+ "charts": [
+  {
+   "chart_name": "Export LC Chart",
+   "label": "Export LC Chart"
+  }
+ ],
+ "content": "[{\"id\": \"header_lc_mgmt\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\">Export LC Management</span>\", \"col\": 12}}, {\"id\": \"nc_total_exposure\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Total LC Exposure\", \"col\": 4}}, {\"id\": \"nc_active_lcs\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Active LCs\", \"col\": 4}}, {\"id\": \"nc_expired_lcs\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Expired LCs\", \"col\": 4}}, {\"id\": \"nc_partially_utilized\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Partially Utilized LCs\", \"col\": 4}}, {\"id\": \"nc_fully_utilized\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Fully Utilized LCs\", \"col\": 4}}, {\"id\": \"nc_closed_lcs\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Closed LCs\", \"col\": 4}}, {\"id\": \"chart_status_dist\", \"type\": \"chart\", \"data\": {\"chart_name\": \"Export LC Status Distribution\", \"col\": 6}}, {\"id\": \"chart_bank_risk\", \"type\": \"chart\", \"data\": {\"chart_name\": \"Bank Risk Concentration\", \"col\": 6}}, {\"id\": \"chart_progress\", \"type\": \"chart\", \"data\": {\"chart_name\": \"Export LC Chart\", \"col\": 12}}, {\"id\": \"header_shortcuts\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\"><b>Shortcuts</b></span>\", \"col\": 12}}, {\"id\": \"sc1\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Sales Order\", \"col\": 4}}, {\"id\": \"sc2\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Export Proforma Invoice\", \"col\": 4}}, {\"id\": \"sc3\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Export LC\", \"col\": 4}}, {\"id\": \"sc4\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Commercial Invoice\", \"col\": 4}}, {\"id\": \"sc6\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Delivery Note\", \"col\": 4}}, {\"id\": \"sc7\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Packing Slip\", \"col\": 4}}, {\"id\": \"header_master_reports\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\"><b>Master &amp; Reports</b></span>\", \"col\": 12}}, {\"id\": \"card1\", \"type\": \"card\", \"data\": {\"card_name\": \"Master\", \"col\": 4}}, {\"id\": \"card2\", \"type\": \"card\", \"data\": {\"card_name\": \"Pre-Shipment\", \"col\": 4}}, {\"id\": \"card3\", \"type\": \"card\", \"data\": {\"card_name\": \"Post-Shipment\", \"col\": 4}}]",
+ "creation": "2026-06-18 11:30:00",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "hide_custom": 0,
+ "icon": "",
+ "idx": 1,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Export LC Workspace",
+ "link_type": "DocType",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Master",
+   "link_count": 4,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Item",
+   "link_count": 0,
+   "link_to": "Item",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Customer",
+   "link_count": 0,
+   "link_to": "Customer",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "User",
+   "link_count": 0,
+   "link_to": "User",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Bank",
+   "link_count": 0,
+   "link_to": "Bank",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Pre-Shipment",
+   "link_count": 3,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Sales Order",
+   "link_count": 0,
+   "link_to": "Sales Order",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Export Proforma Invoice",
+   "link_count": 0,
+   "link_to": "Export Proforma Invoice",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Export LC",
+   "link_count": 0,
+   "link_to": "Export LC",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Post-Shipment",
+   "link_count": 4,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Commercial Invoice",
+   "link_count": 0,
+   "link_to": "Sales Invoice",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Delivery Note",
+   "link_count": 0,
+   "link_to": "Delivery Note",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-07-16 16:05:12.829611",
+ "modified_by": "Administrator",
+ "module": "Export LC",
+ "name": "Export LC Workspace",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Export LC User"
+  },
+  {
+   "role": "Export LC Manager"
+  }
+ ],
+ "sequence_id": 31.0,
+ "shortcuts": [
+  {
+   "color": "Orange",
+   "doc_view": "List",
+   "label": "Sales Order",
+   "link_to": "Sales Order",
+   "stats_filter": "[[\"Sales Order\", \"order_type\", \"=\", \"Sales\"],[\"Sales Order\",\"sales_type\",\"=\",\"Export\"]]",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "Export Proforma Invoice",
+   "link_to": "Export Proforma Invoice",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "Export LC",
+   "link_to": "Export LC",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Cyan",
+   "doc_view": "List",
+   "label": "Commercial Invoice",
+   "link_to": "Sales Invoice",
+   "stats_filter": "[[\"Sales Invoice\", \"invoice_type\", \"=\", \"General\"], [\"Sales Invoice\",\"sales_type\",\"=\",\"Export\"]]",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "Delivery Note",
+   "link_to": "Delivery Note",
+   "stats_filter": "[[\"Delivery Note\",\"sales_type\",\"=\",\"Export\"]]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Export LC Workspace",
+ "type": "Workspace"
+}

@@ -1,0 +1,39 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Professional Teal Background for Export LC (Outbound loading action) -->
+    <rect width="200" height="200" rx="40" fill="#0f766e"/>
+    
+    <!-- Ship Hull (Bottom Right) -->
+    <path d="M120 140 L190 140 L180 165 L135 165 Z" fill="#ffffff"/>
+    
+    <!-- Gantry Crane Structure (Left Side) -->
+    <!-- Legs -->
+    <line x1="40" y1="165" x2="55" y2="70" stroke="#ffffff" stroke-width="4"/>
+    <line x1="70" y1="165" x2="55" y2="70" stroke="#ffffff" stroke-width="4"/>
+    <!-- Support braces -->
+    <line x1="45" y1="120" x2="63" y2="120" stroke="#ffffff" stroke-width="3"/>
+    <line x1="40" y1="165" x2="70" y2="165" stroke="#ffffff" stroke-width="4"/>
+    <!-- Tower and Cabin -->
+    <rect x="45" y="70" width="20" height="15" fill="#ffffff" rx="2"/>
+    
+    <!-- Crane Horizontal Boom (Extends over ship) -->
+    <line x1="30" y1="65" x2="160" y2="65" stroke="#ffffff" stroke-width="5"/>
+    <!-- Diagonal stay cable -->
+    <line x1="55" y1="70" x2="140" y2="65" stroke="#ffffff" stroke-width="2"/>
+    
+    <!-- Trolley and Suspended Container -->
+    <rect x="110" y="65" width="12" height="6" fill="#ffffff"/>
+    <!-- Cable wires -->
+    <line x1="113" y1="71" x2="113" y2="95" stroke="#ffffff" stroke-width="1.5"/>
+    <line x1="119" y1="71" x2="119" y2="95" stroke="#ffffff" stroke-width="1.5"/>
+    <!-- Suspended Container (Golden Orange) -->
+    <rect x="105" y="95" width="22" height="16" fill="#f5c211" rx="2" stroke="#ffffff" stroke-width="1"/>
+    
+    <!-- Stacked Containers on Ship -->
+    <rect x="135" y="120" width="22" height="20" fill="#3584e4" stroke="#ffffff" stroke-width="1"/>
+    <rect x="157" y="120" width="22" height="20" fill="#e01b24" stroke="#ffffff" stroke-width="1"/>
+    
+    <!-- Waves -->
+    <path d="M20 175 Q 40 182 60 175 T 100 175 T 140 175 T 180 175" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.5"/>
+
+    <text x="100" y="190" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">EXPORT LC</text>
+</svg>

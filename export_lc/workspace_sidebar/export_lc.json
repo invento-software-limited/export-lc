@@ -1,0 +1,92 @@
+{
+ "app": "export_lc",
+ "creation": "2026-06-18 11:30:00",
+ "docstatus": 0,
+ "doctype": "Workspace Sidebar",
+ "header_icon": "export",
+ "idx": 4,
+ "items": [
+  {
+   "child": 0,
+   "collapsible": 1,
+   "icon": "home",
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Home",
+   "link_to": "Export LC Workspace",
+   "link_type": "Workspace",
+   "show_arrow": 0,
+   "type": "Link"
+  },
+  {
+   "child": 0,
+   "collapsible": 1,
+   "filters": "[[\"Sales Order\",\"order_type\",\"=\",\"Sales\"],[\"Sales Order\",\"sales_type\",\"=\",\"Export\"]]",
+   "icon": "file-box",
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Sales Order",
+   "link_to": "Sales Order",
+   "link_type": "DocType",
+   "show_arrow": 0,
+   "type": "Link"
+  },
+  {
+   "child": 0,
+   "collapsible": 1,
+   "icon": "file-text",
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Export Proforma Invoice",
+   "link_to": "Export Proforma Invoice",
+   "link_type": "DocType",
+   "show_arrow": 0,
+   "type": "Link"
+  },
+  {
+   "child": 0,
+   "collapsible": 1,
+   "icon": "globe",
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Export LC",
+   "link_to": "Export LC",
+   "link_type": "DocType",
+   "show_arrow": 0,
+   "type": "Link"
+  },
+  {
+   "child": 0,
+   "collapsible": 1,
+   "filters": "[[\"Sales Invoice\",\"sales_type\",\"=\",\"Export\"],[\"Sales Invoice\",\"invoice_type\",\"=\",\"General\"]]",
+   "icon": "file-check",
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Commercial Invoice",
+   "link_to": "Sales Invoice",
+   "link_type": "DocType",
+   "show_arrow": 0,
+   "type": "Link"
+  },
+  {
+   "child": 0,
+   "collapsible": 1,
+   "filters": "[[\"Delivery Note\",\"sales_type\",\"=\",\"Export\"]]",
+   "icon": "truck",
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Delivery Note",
+   "link_to": "Delivery Note",
+   "link_type": "DocType",
+   "show_arrow": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-07-16 17:16:19.642503",
+ "modified_by": "Administrator",
+ "module": "Export LC",
+ "name": "Export LC",
+ "owner": "Administrator",
+ "standard": 1,
+ "title": "Export LC"
+}
