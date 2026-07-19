@@ -1,3 +1,19 @@
+# Release Notes - version 1.0.1 (2026-07-19)
+
+This maintenance release (v1.0.1) implements automated CI workflow configurations for code quality tracking on branch pushes and updates documentation features.
+
+## Improvements in v1.0.1
+
+### 🛠️ CI Workflow Configurations
+- **Branch Triggers**: Configured the linters pipeline to trigger on direct pushes to the `develop` and `version-16` branches.
+- **Workflow Skip Conditions**: Removed the strict pull request filter from the main linter job to allow status reporting for branch commits.
+
+### 📄 Documentation Updates
+- **Key Features Alignments**: Rephrased the features section to highlight Sales Order and Commercial Invoice features.
+- **Feature Cleanup**: Removed outdated references to in-words currency conversion.
+
+---
+
 # Release Notes - version 1.0.0 (2026-07-16)
 
 We are pleased to announce the release of **v1.0.0** of the `export_lc` app. This initial release introduces the core Export LC Management system for Frappe and ERPNext.
