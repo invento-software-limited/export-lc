@@ -352,7 +352,8 @@ def run():
 					doc.insert(ignore_permissions=True)
 
 			# Ensure property setters of Export LC fields and field_order are tagged with module='Export LC'
-			frappe.db.sql("""
+			frappe.db.sql(
+				"""
 				UPDATE `tabProperty Setter`
 				SET module = 'Export LC'
 				WHERE doc_type = %s AND (
@@ -360,17 +361,27 @@ def run():
 						SELECT fieldname FROM `tabCustom Field` WHERE dt = %s AND module = 'Export LC'
 					) OR property = 'field_order'
 				)
-			""", (target_dt, target_dt))
+			""",
+				(target_dt, target_dt),
+			)
 
 			# Export customizations to JSON files in the app, filtering by module
 			export_customizations(
-				module="Export LC", doctype=target_dt, sync_on_migrate=True, with_permissions=True, apply_module_export_filter=True
+				module="Export LC",
+				doctype=target_dt,
+				sync_on_migrate=True,
+				with_permissions=True,
+				apply_module_export_filter=True,
 			)
 			print(f"Synced and exported custom fields for {target_dt}")
 
 		# Also export Sales Order customizations with filter
 		export_customizations(
-			module="Export LC", doctype="Sales Order", sync_on_migrate=True, with_permissions=True, apply_module_export_filter=True
+			module="Export LC",
+			doctype="Sales Order",
+			sync_on_migrate=True,
+			with_permissions=True,
+			apply_module_export_filter=True,
 		)
 		print("Synced and exported custom fields for Sales Order")
 

@@ -1,0 +1,8 @@
+{
+  "name": "Export LC Documentation",
+  "short_name": "Export LC Docs",
+  "icons": [],
+  "theme_color": "#0d785a",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}

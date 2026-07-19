@@ -1,8 +1,13 @@
 name: Linters
 
 on:
+  push:
+    branches:
+      - develop
+      - version-16
   pull_request:
   workflow_dispatch:
+
 
 permissions:
   contents: read
@@ -15,7 +20,6 @@ jobs:
   linter:
     name: 'Frappe Linter'
     runs-on: ubuntu-latest
-    if: github.event_name == 'pull_request'
 
     steps:
       - uses: actions/checkout@v4
