@@ -1,4 +1,4 @@
-# User Guide
+<h2>User Guide</h2>
 
 This guide describes how to use the **Export LC** module in your ERPNext site to track export contracts and manage bank Letters of Credit (LC).
 
@@ -6,8 +6,8 @@ This guide describes how to use the **Export LC** module in your ERPNext site to
 
 ## 1. Export Workflow Lifecycle
 
-```mermaid
-sequenceDiagram
+```
+SequenceDiagram
     participant SO as Sales Order (ERPNext)
     participant PI as Export Proforma Invoice (Custom)
     participant LC as Export LC (Custom)
