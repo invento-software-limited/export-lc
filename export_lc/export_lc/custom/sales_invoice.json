@@ -2434,7 +2434,7 @@
    "print": 0,
    "read": 1,
    "report": 0,
-   "role": "All",
+   "role": "Accounts User",
    "select": 0,
    "share": 0,
    "submit": 0,

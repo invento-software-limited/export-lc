@@ -115,7 +115,7 @@ def run():
 			"export_lc_workspace.json",
 		)
 		if os.path.exists(workspace_path):
-			with open(workspace_path) as f:
+			with open(workspace_path) as f:  # nosemgrep: frappe-security-file-traversal
 				ws_data = json.load(f)
 			doc.charts = []
 			for c in ws_data.get("charts", []):
@@ -214,7 +214,7 @@ def run():
 		doc = frappe.get_doc("Workspace Sidebar", sidebar_name)
 		sidebar_path = os.path.join(frappe.get_app_path("export_lc"), "workspace_sidebar", "export_lc.json")
 		if os.path.exists(sidebar_path):
-			with open(sidebar_path) as f:
+			with open(sidebar_path) as f:  # nosemgrep: frappe-security-file-traversal
 				sidebar_data = json.load(f)
 			doc.items = []
 			for item in sidebar_data.get("items", []):
@@ -276,7 +276,7 @@ def run():
 		frappe.get_app_path("export_lc"), "export_lc", "custom", "sales_order.json"
 	)
 	if os.path.exists(sales_order_custom_path):
-		with open(sales_order_custom_path) as f:
+		with open(sales_order_custom_path) as f:  # nosemgrep: frappe-security-file-traversal
 			so_data = json.loads(f.read())
 
 		custom_fields = so_data.get("custom_fields", [])
