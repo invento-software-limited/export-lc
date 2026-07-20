@@ -16,14 +16,12 @@ class ExportLC(Document):
 		self.set_status()
 
 	def on_submit(self):
-		self.set_status()
-		self.db_set("status", self.status)
+		self.set_status(update=True)  # nosemgrep: frappe-modifying-but-not-committing-other-method
 
 	def on_cancel(self):
-		self.set_status()
-		self.db_set("status", self.status)
+		self.set_status(update=True)  # nosemgrep: frappe-modifying-but-not-committing-other-method
 
-	def set_status(self):
+	def set_status(self, update=False):
 		if self.docstatus == 0:
 			self.status = "Draft"
 		elif self.docstatus == 2:
@@ -47,6 +45,9 @@ class ExportLC(Document):
 				self.status = "Expired"
 			else:
 				self.status = "Active"
+
+		if update and self.name:
+			self.db_set("status", self.status)
 
 	def validate_one_to_one(self):
 		if self.proforma_invoice:

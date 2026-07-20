@@ -395,4 +395,5 @@ def run():
 			frappe.db.delete("Property Setter", {"doc_type": dt, "field_name": fieldname})
 			print(f"Deleted custom field {fieldname} from {dt}")
 
-	frappe.db.commit()
+	# Manual commit required to persist setup permissions and custom fields during migration
+	frappe.db.commit()  # nosemgrep: frappe-manual-commit
