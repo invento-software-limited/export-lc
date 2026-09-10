@@ -70,10 +70,24 @@ These fields help structure LC information; they do not claim automatic SWIFT MT
 
 ## Export or import—which app do you need?
 
-| Use case | App |
-| --- | --- |
-| A buyer opens an LC in your favour and you ship against it | **Export LC** (this repository) |
-| You open an LC to buy goods, materials or machinery from a supplier | [**Import LC**](https://github.com/invento-software-limited/import-lc) |
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="70%" align="left">Use case</th>
+      <th width="30%" align="left">Choose this app</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>A buyer opens an LC in your favour and you ship against it</td>
+      <td><strong>Export LC</strong><br><sub>THIS REPOSITORY</sub></td>
+    </tr>
+    <tr>
+      <td>You open an LC to buy goods, materials or machinery from a supplier</td>
+      <td><a href="https://github.com/invento-software-limited/import-lc"><strong>Explore Import LC →</strong></a></td>
+    </tr>
+  </tbody>
+</table>
 
 Businesses—including ready-made garment exporters using back-to-back LCs—can install both apps to manage each direction. In the current `version-16` repositories, the apps manage their respective workflows; they do not automatically create a master export LC/back-to-back import LC relationship across apps.
 
@@ -108,12 +122,24 @@ Open the app from the ERPNext app switcher after installation. For a fresh bench
 
 ## Requirements and compatibility
 
-| Component | Supported version |
-| --- | --- |
-| Frappe Framework | `>=16.0.0-dev, <17.0.0-dev` |
-| ERPNext | v16 |
-| Python | 3.10 or newer |
-| App branch | `version-16` |
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="25%" align="left">Frappe Framework</th>
+      <th width="25%" align="left">ERPNext</th>
+      <th width="25%" align="left">Python</th>
+      <th width="25%" align="left">App branch</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>&gt;=16.0.0-dev, &lt;17.0.0-dev</code></td>
+      <td>v16</td>
+      <td>3.10 or newer</td>
+      <td><code>version-16</code></td>
+    </tr>
+  </tbody>
+</table>
 
 The repository also has a `develop` branch for active development; production v16 installations should use `version-16`.
 
