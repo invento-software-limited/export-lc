@@ -11,7 +11,10 @@
 [![ERPNext v16](https://img.shields.io/badge/ERPNext-v16-0089FF)](https://github.com/frappe/erpnext)
 [![License: MIT](https://img.shields.io/badge/License-MIT-2F855A.svg)](license.txt)
 
-[Marketplace](https://cloud.frappe.io/marketplace/apps/export_lc) · [Documentation](https://invento-software-limited.github.io/export-lc/) · [LC management guide](https://invento.com.bd/import-export-lc-management-erpnext/) · [Import LC companion app](https://github.com/invento-software-limited/import-lc)
+<a href="https://cloud.frappe.io/marketplace/apps/export_lc"><img src="https://img.shields.io/badge/Install_from_Marketplace-0B7A75?style=for-the-badge" alt="Install Export LC from Frappe Marketplace" /></a>
+<a href="https://invento-software-limited.github.io/export-lc/"><img src="https://img.shields.io/badge/View_Documentation-315CA8?style=for-the-badge" alt="View Export LC documentation" /></a>
+
+<a href="https://invento.com.bd/import-export-lc-management-erpnext/">Read the LC management guide</a> · <a href="https://github.com/invento-software-limited/import-lc">Explore Import LC</a>
 
 </div>
 
@@ -74,13 +77,21 @@ These fields help structure LC information; they do not claim automatic SWIFT MT
 
 Businesses—including ready-made garment exporters using back-to-back LCs—can install both apps to manage each direction. In the current `version-16` repositories, the apps manage their respective workflows; they do not automatically create a master export LC/back-to-back import LC relationship across apps.
 
-For the business context, terminology and process gaps these apps address, read [Import and Export LC Management in ERPNext](https://invento.com.bd/import-export-lc-management-erpnext/).
+<div align="center">
+
+<h3>Understand the complete import and export LC workflow</h3>
+
+<a href="https://invento.com.bd/import-export-lc-management-erpnext/"><img src="https://img.shields.io/badge/Read_the_Practical_LC_Guide-315CA8?style=for-the-badge" alt="Read the Import and Export LC Management in ERPNext guide" /></a>
+
+</div>
 
 ## Installation
 
 ### Frappe Cloud
 
-Install [Export LC from the Frappe Marketplace](https://cloud.frappe.io/marketplace/apps/export_lc).
+<a href="https://cloud.frappe.io/marketplace/apps/export_lc"><img src="https://img.shields.io/badge/Install_Export_LC-0B7A75?style=for-the-badge&logo=frappe&logoColor=white" alt="Install Export LC from Frappe Marketplace" /></a>
+
+Recommended for managed Frappe Cloud installations.
 
 ### Self-hosted bench
 
