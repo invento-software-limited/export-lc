@@ -50,7 +50,17 @@ add_to_apps_screen = [
 # include js in page
 # page_js = {"page" : "public/js/file.js"}
 
-doctype_js = {"Sales Order": "public/js/sales_order.js", "Sales Invoice": "public/js/sales_invoice.js"}
+doctype_js = {
+	"Sales Order": "public/js/sales_order.js",
+	"Sales Invoice": "public/js/sales_invoice.js",
+	"Export LC": [
+		"public/js/export_lc_dashboard/format.js",
+		"public/js/export_lc_dashboard/charts.js",
+		"public/js/export_lc_dashboard/styles.js",
+		"public/js/export_lc_dashboard/markup.js",
+		"public/js/export_lc_dashboard/dashboard.js",
+	],
+}
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}

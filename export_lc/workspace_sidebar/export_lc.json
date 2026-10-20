@@ -21,6 +21,18 @@
   {
    "child": 0,
    "collapsible": 1,
+   "icon": "layout-dashboard",
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Dashboard",
+   "link_to": "export-lc-dashboard",
+   "link_type": "Page",
+   "show_arrow": 0,
+   "type": "Link"
+  },
+  {
+   "child": 0,
+   "collapsible": 1,
    "filters": "[[\"Sales Order\",\"order_type\",\"=\",\"Sales\"],[\"Sales Order\",\"sales_type\",\"=\",\"Export\"]]",
    "icon": "file-box",
    "indent": 0,
@@ -82,7 +94,7 @@
    "type": "Link"
   }
  ],
- "modified": "2026-07-16 17:16:19.642503",
+ "modified": "2026-10-20 12:00:00.000000",
  "modified_by": "Administrator",
  "module": "Export LC",
  "name": "Export LC",
